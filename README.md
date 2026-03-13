@@ -83,7 +83,7 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/cintel-01-getting-started
+git clone https://github.com/ajaneh/cintel-01-getting-started
 cd cintel-01-getting-started
 code .
 ```
@@ -100,6 +100,7 @@ git add -A
 uvx pre-commit run --all-files
 
 uv run python -m cintel.pipeline_case
+uv run python -m cintel.pipeline_alex
 
 uv run ruff format .
 uv run ruff check . --fix
